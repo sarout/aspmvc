@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASSIGNMENT 1</h1>
+    <p class="lead">This is the first practice on web apps using ASP.NET MVC. Getting familiar with models. views and controllers</p>
+    <p>This Web app enables the browser user to view and create "phone" object.</p>
+    <p><a href="/Home/About" target="_blank" class="btn btn-primary btn-lg">About me &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <h4>INT422 -Jan 2016</h4>
+        <div class="alert alert-success" role="alert">
+            In the Phones Table, As the Assignment requires; Delete and Edit are not implemented. Therefore, their links may not work.
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Web App Parts</h2>
+        <p>
+            This is a basic PhoneBase Web App that collects a number of Smartphones specifications, With the possibility of adding, updating and removing Items.
+        </p>
+        <p><a class="btn btn-default btn-warning" href="/Phones/Index">Check the Phones List &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web App Function</h2>
+        <p>Beside Displaying a List of Available Phone, users can add, update and remove their own devices specifications, and also users can display detailed informations about any specific device.</p>
+        <p><a class="btn btn-default btn-info" href="/Phones/Create">Click to Create New &raquo;</a></p>
+    </div>
+
+    <div class="col-md-12">
+        <h2>How to use</h2>
+        <p>
+            To have access to the base you just need to check the main menu in the top of the website, click Phones and you will find a list of the available phones.
+            To add your own device click on Create New link in the Top of the table.
+            To Edit, Delete or Display Details about specific phone: choose your the phone and  click on on of the links in the table in front of the wanted phone.
+        </p>
+        <p><a class="btn btn-default btn-danger" href="/Phones/Details/1">Check the first Phone &raquo;</a></p>
+    </div>
+</div>
